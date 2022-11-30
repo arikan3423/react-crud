@@ -5,6 +5,13 @@
       "name": "baran arıkan",
       "email": "brn@gmail.com",
       "phone": "827879298"
+    },
+    {
+      "id": 2,
+      "name": "furkan arıkan",
+      "email": "frk@gmail.com",
+      "phone": "824234823094230",
+      "active": true
     }
   ]
 }

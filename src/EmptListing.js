@@ -13,7 +13,7 @@ const EmptListing = () => {
     }
     const RemoveFunction=(id)=>{
         if(window.confirm("Do you want to remove?")){
-
+            
             fetch("http://localhost:8000/employee/"+id,{
                 method:"DELETE", 
                }).then((res) => {
@@ -85,6 +85,6 @@ const EmptListing = () => {
 
         </div>
     );
-}
+ }
  
 export default EmptListing;
